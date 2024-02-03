@@ -1318,6 +1318,21 @@
 
           <h3 class="h3 form-title">Контакт форма</h3>
 
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Контакт форма</label>
+    <input type="text" name="name" id="full-name" placeholder="Име и презиме" required="">
+    <label for="email-address"></label>
+    <input type="email" name="_replyto" id="email-address" placeholder="Email адреса" required="">
+    <label for="message"></label>
+    <textarea rows="5" name="message" id="message" placeholder="Ваша порука" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Ваша порука">
+</form>
+
+
+          
           <form action="#" class="form" data-form>
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Име и презиме" required data-form-input>
